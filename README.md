@@ -5,7 +5,7 @@
 [![Status](https://img.shields.io/badge/Coverage-100%25%20(129%20Challenges)-brightgreen.svg)]()
 [![Documentation](https://img.shields.io/badge/Reports-Azerbaijani%20%7C%20English-orange.svg)]()
 
-This repository contains comprehensive step-by-step walkthroughs, penetration testing methodologies, exploit scripts, terminal commands, and verified screenshot evidence for all 5 zones (129 Challenges) of the official **EC-Council Certified Penetration Testing Professional (CPENT)** Live Practice Range.
+This repository contains comprehensive step-by-step walkthroughs, penetration testing methodologies, exploit scripts, terminal commands, and verified screenshot evidence for all 5 zones (130 Challenges) of the official **EC-Council Certified Penetration Testing Professional (CPENT)** Live Practice Range.
 
 All challenge solutions are thoroughly documented in both **English** and **Azerbaijani**.
 
