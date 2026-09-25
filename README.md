@@ -14,14 +14,20 @@ All challenge solutions are thoroughly documented in both **English** and **Azer
 ## 📌 Table of Contents
 
 - [About The Repository](#-about-the-repository)
-- [Practice Range Overview](#-practice-range-overview)
+- [⚡ Quick Access: Direct Lab Walkthroughs (English)](#-quick-access-direct-lab-walkthroughs-english)
+  - [1. Binary Analysis & Exploit Development (Ch 01 - 25)](Binary/binary_range_EN.md)
+  - [2. IoT & Firmware Analysis (Ch 26 - 61)](IOT/IOT_range_EN.md)
+  - [3. Active Directory Range (Ch 62 - 99)](AD/AD_range_EN.md)
+  - [4. Capture The Flag (CTF) Range (Ch 100 - 118)](CTF/CTF_range_EN.md)
+  - [5. Web Application Penetration Testing (Ch 119 - 129)](WEB/Web_range_EN.md)
+- [Practice Range Overview & Matrix](#-practice-range-overview--matrix)
 - [Directory Structure](#-directory-structure)
 - [Range Breakdowns](#-range-breakdowns)
-  - [1. Binary Analysis & Exploit Development (Ch 01 - 25)](#1-binary-analysis--exploit-development-ch-01---25)
-  - [2. IoT & Firmware Analysis (Ch 26 - 61)](#2-iot--firmware-analysis-ch-26---61)
-  - [3. Active Directory Range (Ch 62 - 99)](#3-active-directory-range-ch-62---99)
-  - [4. Capture The Flag (CTF) Range (Ch 100 - 118)](#4-capture-the-flag-ctf-range-ch-100---118)
-  - [5. Web Application Penetration Testing (Ch 119 - 129)](#5-web-application-penetration-testing-ch-119---129)
+  - [1. Binary Analysis & Exploit Development (Ch 01 - 25)](#1-binary-analysis--exploit-development-ch-01---25---open-en-walkthrough-)
+  - [2. IoT & Firmware Analysis (Ch 26 - 61)](#2-iot--firmware-analysis-ch-26---61---open-en-walkthrough-)
+  - [3. Active Directory Range (Ch 62 - 99)](#3-active-directory-range-ch-62---99---open-en-walkthrough-)
+  - [4. Capture The Flag (CTF) Range (Ch 100 - 118)](#4-capture-the-flag-ctf-range-ch-100---118---open-en-walkthrough-)
+  - [5. Web Application Penetration Testing (Ch 119 - 129)](#5-web-application-penetration-testing-ch-119---129---open-en-walkthrough-)
 - [Tools & Technologies](#-tools--technologies)
 - [Ethical Disclaimer](#-ethical-disclaimer)
 - [Contact & Connect](#-contact--connect)
@@ -40,16 +46,28 @@ This repository serves as a centralized technical knowledge base and walkthrough
 
 ---
 
-## 🎯 Practice Range Overview
+## ⚡ Quick Access: Direct Lab Walkthroughs (English)
 
-| Range Area | Challenges | Count | Key Focus & Techniques |
-| :--- | :---: | :---: | :--- |
-| **Binary** | Challenge 01 - 25 | 25 | CesarFTP exploit dev, Ghidra static analysis, checksec, GDB, EIP offset, ROP gadgets, Linux & Windows privilege escalation |
-| **IOT** | Challenge 26 - 61 | 36 | Binwalk firmware unpacking, SquashFS/JFFS2 extraction, MIPS32 binary analysis, XOR decryption, TRX/uImage headers, HNAP/SOAP |
-| **AD** | Challenge 62 - 99 | 38 | Kerberos user enumeration, Kerberoasting, AS-REP roasting, NetExec, BloodHound, Domain Trusts, CU12 SPN, ACL bypass, DC compromise |
-| **CTF** | Challenge 100 - 118 | 19 | SSH brute-forcing, SUID binary exploitation, Rsync misconfigurations, Linux Kernel exploits, PwnKit, CyberChef, Git root flags |
-| **WEB** | Challenge 119 - 129 | 11 | OTRS ticketing exploit, SQL Injection DB dump, AWK command execution, Burp upload filter bypass, SUID find, WP cron abuse |
-| **Total** | **Challenge 01 - 129** | **129** | **100% Full CPENT Practice Range Coverage** |
+Click any of the links below to directly open the complete English walkthrough report for that specific range:
+
+- 🔬 [**Binary Range Walkthrough (Ch 01 - 25)**](Binary/binary_range_EN.md) - CesarFTP exploit dev, Ghidra, GDB, EIP offset, checksec, ROP
+- 📡 [**IoT Range Walkthrough (Ch 26 - 61)**](IOT/IOT_range_EN.md) - Binwalk, SquashFS/JFFS2, MIPS32, XOR decryption, TRX/uImage, HNAP/SOAP
+- 🏢 [**Active Directory Range Walkthrough (Ch 62 - 99)**](AD/AD_range_EN.md) - Kerberos enum, Kerberoasting, AS-REP roasting, NetExec, Domain Trusts, DC compromise
+- 🚩 [**CTF Range Walkthrough (Ch 100 - 118)**](CTF/CTF_range_EN.md) - SSH brute-force, SUID privesc, Rsync, Linux kernel exploits, PwnKit, CyberChef
+- 🌐 [**Web Range Walkthrough (Ch 119 - 129)**](WEB/Web_range_EN.md) - OTRS exploit, SQL Injection DB dump, AWK injection, Burp file upload, SUID find
+
+---
+
+## 🎯 Practice Range Overview & Matrix
+
+| Range Area | Challenges | Count | English Walkthrough | Azerbaijani Report | Key Focus & Techniques |
+| :--- | :---: | :---: | :---: | :---: | :--- |
+| [**Binary Range**](Binary/binary_range_EN.md) | Challenge 01 - 25 | 25 | [📖 Open Walkthrough](Binary/binary_range_EN.md) | [🇦🇿 Open Report](Binary/binary_range_AZ.md) | CesarFTP exploit dev, Ghidra static analysis, checksec, GDB, EIP offset, ROP gadgets, Linux & Windows privilege escalation |
+| [**IoT Range**](IOT/IOT_range_EN.md) | Challenge 26 - 61 | 36 | [📖 Open Walkthrough](IOT/IOT_range_EN.md) | [🇦🇿 Open Report](IOT/IOT_range_AZ.md) | Binwalk firmware unpacking, SquashFS/JFFS2 extraction, MIPS32 binary analysis, XOR decryption, TRX/uImage headers, HNAP/SOAP |
+| [**Active Directory Range**](AD/AD_range_EN.md) | Challenge 62 - 99 | 38 | [📖 Open Walkthrough](AD/AD_range_EN.md) | [🇦🇿 Open Report](AD/AD_range_AZ.md) | Kerberos user enumeration, Kerberoasting, AS-REP roasting, NetExec, BloodHound, Domain Trusts, CU12 SPN, ACL bypass, DC compromise |
+| [**CTF Range**](CTF/CTF_range_EN.md) | Challenge 100 - 118 | 19 | [📖 Open Walkthrough](CTF/CTF_range_EN.md) | [🇦🇿 Open Report](CTF/CTF_range_AZ.md) | SSH brute-forcing, SUID binary exploitation, Rsync misconfigurations, Linux Kernel exploits, PwnKit, CyberChef, Git root flags |
+| [**Web Range**](WEB/Web_range_EN.md) | Challenge 119 - 129 | 11 | [📖 Open Walkthrough](WEB/Web_range_EN.md) | [🇦🇿 Open Report](WEB/Web_range_AZ.md) | OTRS ticketing exploit, SQL Injection DB dump, AWK command execution, Burp upload filter bypass, SUID find, WP cron abuse |
+| **Total** | **Challenge 01 - 129** | **129** | **5 English Walkthroughs** | **5 Azerbaijani Reports** | **100% Full CPENT Practice Range Coverage** |
 
 ---
 
@@ -64,9 +82,8 @@ CPENT-range/
 │   └── ch62_...png - ch99_...png       # 34 Verified Challenge Screenshots
 │
 ├── Binary/                             # Binary & Exploit Development (Challenge 01 - 25)
-│   ├── binary range EN.md              # Technical English Walkthrough
-│   ├── binary range.md                 # Technical Azerbaijani Walkthrough
-│   ├── Binary_Challenges_Answers.md    # Quick Answer Key & Scoring
+│   ├── binary_range_EN.md              # Technical English Walkthrough
+│   ├── binary_range_AZ.md              # Technical Azerbaijani Walkthrough
 │   └── ch01_...png - ch25_...png       # 15 Verified Challenge Screenshots
 │
 ├── CTF/                                # CTF & Linux Privilege Escalation (Challenge 100 - 118)
@@ -75,9 +92,8 @@ CPENT-range/
 │   └── ch100_...png - ch118_...png     # 13 Verified Challenge Screenshots
 │
 ├── IOT/                                # IoT & Firmware Reverse Engineering (Challenge 26 - 61)
-│   ├── IOT range EN.md                 # Comprehensive English Walkthrough
-│   ├── IOT range.md                    # Comprehensive Azerbaijani Walkthrough
-│   ├── IOT_Challenges_Answers.md       # Quick Answer Key & Scoring
+│   ├── IOT_range_EN.md                 # Comprehensive English Walkthrough
+│   ├── IOT_range_AZ.md                 # Comprehensive Azerbaijani Walkthrough
 │   └── ch26_...png - ch61_...png       # 18 Verified Challenge Screenshots
 │
 ├── WEB/                                # Web Application Penetration Testing (Challenge 119 - 129)
@@ -85,14 +101,16 @@ CPENT-range/
 │   ├── Web_range_AZ.md                 # Full Azerbaijani Walkthrough
 │   └── ch119_...png - ch129_...png     # 7 Verified Challenge Screenshots
 │
-└── README.md                           # Main Repository Documentation & Guide
+├── LICENSE                             # Proprietary & Confidential License Terms
+├── .gitignore                          # Git Exclusion Rules (Obsidian, OS, Python artifacts)
+└── README.md                           # Main Repository Documentation & Direct Navigation
 ```
 
 ---
 
 ## 🔍 Range Breakdowns
 
-### 1. Binary Analysis & Exploit Development (Ch 01 - 25)
+### 1. Binary Analysis & Exploit Development (Ch 01 - 25) - [Open EN Walkthrough ↗](Binary/binary_range_EN.md)
 - **Targets:** Remote daemon exploitation, local binary reverse engineering, memory corruption.
 - **Key Techniques & Milestones:**
   - CesarFTP 0.99g `MKD` buffer overflow vulnerability analysis and custom exploit scripting in Python.
@@ -102,7 +120,7 @@ CPENT-range/
   - Dynamic debugging using **GDB (GEF / PEDA)**: pattern generation (`pattern create 100`), crash offset determination (`pattern offset 64`), register overwrites (EIP / RIP), and bad character detection.
   - Exploiting the `one.exe` binary and local privilege escalation.
 
-### 2. IoT & Firmware Analysis (Ch 26 - 61)
+### 2. IoT & Firmware Analysis (Ch 26 - 61) - [Open EN Walkthrough ↗](IOT/IOT_range_EN.md)
 - **Targets:** Embedded system firmware images (`FileOne.bin`, `FileTwo.bin`, `FileThree.bin`, `IOT.bin`, `IOT2.bin`, `IOT3.bin`, `IOT4.bin`).
 - **Key Techniques & Milestones:**
   - Firmware component extraction with `binwalk` and file system mounting (SquashFS, JFFS2).
@@ -113,7 +131,7 @@ CPENT-range/
   - Extracting embedded administrative credentials, backdoors, and configuration files (`check_fwmode`).
   - Auditing IoT communication protocols: HNAP (Home Network Administration Protocol) and SOAP XML APIs.
 
-### 3. Active Directory Range (Ch 62 - 99)
+### 3. Active Directory Range (Ch 62 - 99) - [Open EN Walkthrough ↗](AD/AD_range_EN.md)
 - **Targets:** Enterprise-grade Windows Active Directory domain environments (`LPT.COM`, `CPENT.COM`).
 - **Key Techniques & Milestones:**
   - Pre-auth user enumeration via Kerberos (`kerbrute`, Nmap `krb5-enum-users.realm`).
@@ -125,7 +143,7 @@ CPENT-range/
   - Lateral movement and administrative execution across Windows Server 2008, 2012, 2019, 2022, and workstation endpoints via PsExec, Pass-the-Hash, and SMB credential brute-forcing.
   - ACL abuse for privilege escalation and full Domain Controller takeover.
 
-### 4. Capture The Flag (CTF) Range (Ch 100 - 118)
+### 4. Capture The Flag (CTF) Range (Ch 100 - 118) - [Open EN Walkthrough ↗](CTF/CTF_range_EN.md)
 - **Targets:** Hardened Linux targets requiring deep multi-stage exploitation.
 - **Key Techniques & Milestones:**
   - Service enumeration and brute-forcing exposed SSH services.
@@ -135,7 +153,7 @@ CPENT-range/
   - Password cracking with John the Ripper and Hashcat using custom rule sets (`ssh2john`).
   - Multi-stage decoding of obfuscated data using CyberChef and recovering SSH keys from hidden Git repositories.
 
-### 5. Web Application Penetration Testing (Ch 119 - 129)
+### 5. Web Application Penetration Testing (Ch 119 - 129) - [Open EN Walkthrough ↗](WEB/Web_range_EN.md)
 - **Targets:** Enterprise ticketing platforms, proprietary database backends, and CMS deployments.
 - **Key Techniques & Milestones:**
   - OTRS (Open Ticket Request System) web application exploitation leading to system compromise.
